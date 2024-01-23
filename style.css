@@ -1,0 +1,114 @@
+a{
+    text-decoration: none;
+    color:black;
+
+}
+a:hover{
+    color: blueviolet;
+}
+h1
+    {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        color:rgb(224, 211, 192);
+        padding: 3%;
+
+    }
+h2
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        color:rgb(241, 216, 184);
+        padding-left: 3%;
+        padding-top: -3%;
+        padding-bottom: 3%;
+        padding-right: 3%;
+    }
+body
+    {
+        background-color:slategrey;
+    }
+    p   {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: .5%;
+        color:rgb(239, 213, 180);
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-bottom: 3%;
+        padding-top: 3%;
+        letter-spacing: .01em;
+    }
+    .center
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+   .container
+   {
+        width: 80%;
+        margin: auto;
+   }
+   .box-1{
+        background-color: rgb(133, 161, 152);
+        color: beige;
+
+        border-right: 5px rgb(96, 47, 47) solid;
+
+        padding: 20px;
+
+        margin: 20px 0;
+        border-radius: 15px;
+   }
+   .box-1 h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   }
+   .box-2{
+        border: 20px;
+        background-color: rgb(153, 182, 182);
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 15px;
+   }
+   .categories{
+       border: 1px #ccc solid; 
+       padding:10px;
+       border-radius: 15px;
+   }
+
+   .categories h2{
+        text-align: center;
+   }
+
+   .categories ul{
+        padding:0;
+        list-style: none;
+   }
+ .container-2 {
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .box-2 p{
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .box-2 h2{
+    display: flex;
+    flex-basis: 0%;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .box-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: #ffffff;
+    padding: 10px;
+ }
+ .box-3 img{
+    flex-basis: 1%;
+ }
